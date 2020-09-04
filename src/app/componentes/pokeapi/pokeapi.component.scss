@@ -1,0 +1,31 @@
+h1{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+#gridPokemon{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    .pokemon{
+        border: 1px solid black;
+        text-shadow: 1px 1px rgba(233, 205, 144, 0.543);
+        border-radius: 5px;
+        margin: 5px;
+        padding: 3px;
+        .url{
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: space-around;
+            a{
+                color: rgba(240, 207, 158, 0.749);
+                i{
+                    color: rgba(240, 157, 93, 0.831);
+                }
+            }
+        }
+    }
+}
